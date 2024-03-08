@@ -4,8 +4,7 @@ import sys
 from app import Yoi
 
 def main():
-    pid = os.fork()
-    if pid == 0:
+    if os.fork() == 0:
         yoi = Yoi()
         yoi(*sys.argv[1:])
 

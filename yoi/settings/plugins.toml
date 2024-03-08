@@ -1,3 +1,23 @@
-python = true
-c_cpp = true
-markdowm_editor = false
+sources = [
+    "http://github.com/kidding-hazker/yoi",
+]
+
+[[plugins]]
+name = "python"
+version = "1.0.3"
+enable = true
+
+[[plugins]]
+name = "c/c++"
+version = "5.67-98"
+enable = false
+
+[[plugins]]
+name = "chatgpt"
+version = "2.4"
+enable = false
+
+[[plugins]]
+name = "svg editor"
+version = "2024.5"
+enable = false

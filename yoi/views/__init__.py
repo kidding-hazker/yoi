@@ -1,1 +1,1 @@
-from views.view import View
+from .view import View
